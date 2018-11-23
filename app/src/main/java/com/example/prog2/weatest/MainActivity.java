@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         humidity_field = (TextView) findViewById(R.id.humidity_field);
         pressure_field = (TextView) findViewById(R.id.pressure_field);
         weatherIcon = (TextView) findViewById(R.id.weather_icon);
-        weatherFont = Typeface.createFromAsset(getAssets(), "fonts/weathericons-regular-webfont.ttf");
+        weatherFont = Typeface.createFromAsset(getAssets(), "fonts/weather-icons-master/font/weathericons-regular-webfont.ttf");
         weatherIcon.setTypeface(weatherFont);
 
         taskLoadUp(city);
